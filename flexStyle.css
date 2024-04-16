@@ -1,0 +1,23 @@
+h1{
+    color: gray;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.flex-container{
+    background-color: yellow;
+    height: 500px;
+    width: 100%;
+    /* margin-left: 300px; */
+
+
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+}

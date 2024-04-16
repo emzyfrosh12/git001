@@ -1,0 +1,18 @@
+.emma{display: flex;
+      border-radius: 20px;
+      justify-content: center;
+
+}
+
+.image-wrap{
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: center;
+      width: 30%;
+
+}
+
+img{
+      width: 100%;
+}

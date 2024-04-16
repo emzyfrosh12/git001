@@ -1,0 +1,92 @@
+
+body{
+    background-color: whitesmoke;
+    width: 95%;
+    margin-left: 20px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-content: left;
+    font-size: small;
+    margin-top: 30px;
+}
+  
+.logo {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin-left: 70px;
+
+}
+
+.write{
+    display: flex;
+    justify-content: right;
+    align-self: start;
+    margin-right: 55px;
+}
+
+h1 {
+  margin: 9px;
+  font-size: medium;
+}
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.all-box {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.all-box2{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 90%;
+    margin-bottom: 150px;
+    margin-left: 60px;
+    color: aliceblue;
+  }
+
+.box{
+  background-color: navy;
+  height: 300px;
+  width: 35%;
+  border-radius: 20px;
+}
+
+.box {
+    background-color: navy;
+    height: 300px;
+    width: 30%;
+    border-radius: 20px;
+  }
+
+
+.box:hover {
+  border-radius: 40px;
+  transition: 0.5s;
+  background-color: bisque;
+}
+
+.box:hover {
+    border-radius: 40px;
+    transition: 0.5s;
+    background-color: bisque;
+  }
+
+p {
+  padding: 20px;
+}
